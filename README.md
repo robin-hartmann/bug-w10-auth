@@ -25,7 +25,6 @@ After installing and setting up Node.js, run the following commands in *cmd* or 
 ```
 npm i
 .\node_modules\.bin\cordova platform add windows
-.\node_modules\.bin\cordova build windows
 ```
 
 ## How to reproduce
@@ -37,7 +36,9 @@ npm i
 1. Launch the app manually
 1. Press *Send POST*
 
-Now the authentication dialog should pop up. If the dialog isn't closed within about 5 seconds, the app will crash. (the device needs to successfully receive the response from ``http://PutsReq.com`` for the dialog to show)
+Now the authentication dialog should pop up. If the dialog isn't closed within about 5 seconds, the app will crash.
+
+(the device needs to successfully receive the response from ``http://PutsReq.com`` for the dialog to show)
 
 ## About the response
 
@@ -45,7 +46,7 @@ For the dialog to pop up, the following conditions have to be met by the respson
 
 - Status code needs to be `401`
 - Header `WWW-Authenticate` needs to be present
-- Header `WWW-Authenticate` needs to be configured for Basic Authentication (e.g. `Basic realm="PutsReq.com"`)
+- Header `WWW-Authenticate` needs to be configured for Basic Authentication (e.g. set to  `Basic realm="PutsReq.com"`)
 
 ## Authors
 
