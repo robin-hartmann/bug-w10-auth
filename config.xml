@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="bug.w10.auth" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Bug W10 Auth</name>
+    <description>
+        A demonstration on how to reproduce a crash on Windows 10 Mobile devices after the authentication dialog pops up
+    </description>
+    <author>
+        Robin Hartmann
+    </author>
+    <content src="index.html" />
+    <platform name="windows">
+        <preference name="windows-target-version" value="10.0" />
+    </platform>
+    <engine name="windows" spec="5.0.0" />
+</widget>

@@ -1,0 +1,14 @@
+{
+  "name": "bug-w10-auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Hartmann",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cordova": "6.2.0"
+  }
+}
