@@ -7,6 +7,7 @@ A demonstration on how to reproduce a crash on Windows 10 Mobile devices after t
 Device|Windows Variant|Windows Version|Crash
 ---|---|---|---
 x64-based PC|Pro|1703 (10.0.15063.0)|NO
+x64-based PC|Pro|1511 (10.0.10586.1106)|NO
 HP Elite x3|Mobile|1703 (10.0.15063.608)|NO
 NOKIA Lumia 930|Mobile|1607 (10.0.14393.1715)|YES
 Zebra TC700J|Mobile Enterprise|1607 (10.0.14393.1715)|YES
