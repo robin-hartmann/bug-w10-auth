@@ -2,26 +2,15 @@
 
 A demonstration on how to reproduce a crash on Windows 10 Mobile devices after the authentication dialog pops up
 
-## Tested on
+## Getting Started
 
-Device|Windows Variant|Windows Version|Crash
----|---|---|---
-x64-based PC|Pro|1703 (10.0.15063.0)|NO
-x64-based PC|Pro|1511 (10.0.10586.1106)|NO
-HP Elite x3|Mobile|1703 (10.0.15063.608)|NO
-NOKIA Lumia 930|Mobile|1607 (10.0.14393.1715)|YES
-Zebra TC700J|Mobile Enterprise|1607 (10.0.14393.1715)|YES
-PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
+These instructions will get you a copy of the project up and running on your local machine.
 
-## Prerequisites
-
-### Software
+### Prerequisites
 
 * [Node.js](https://nodejs.org/en/download/) - A JavaScript run-time environment
 
-### Setup
-
-After installing and setting up Node.js, run the following commands in *cmd* or *powershell*:
+### Installing
 
 ```Batchfile
 npm i
@@ -46,6 +35,22 @@ For the dialog to pop up, the following conditions have to be met by the respson
 * Status code needs to be `401`
 * Header `WWW-Authenticate` needs to be present
 * Header `WWW-Authenticate` needs to be configured for Basic Authentication (e.g. set to  `Basic realm="PutsReq.com"`)
+
+## Tested on
+
+Device|Windows Variant|Windows Version|Crash
+---|---|---|---
+x64-based PC|Pro|1703 (10.0.15063.0)|NO
+x64-based PC|Pro|1511 (10.0.10586.1106)|NO
+HP Elite x3|Mobile|1703 (10.0.15063.608)|NO
+NOKIA Lumia 930|Mobile|1607 (10.0.14393.1715)|YES
+Zebra TC700J|Mobile Enterprise|1607 (10.0.14393.1715)|YES
+PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
+
+## Built With
+
+* [Cordova](https://cordova.apache.org/) - Mobile apps with HTML, CSS & JS
+* [PutsReq](http://putsreq.com/) - Lets you record HTTP requests and fake responses
 
 ## Authors
 
