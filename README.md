@@ -18,7 +18,7 @@ npm i
 .\node_modules\.bin\cordova platform add windows
 ```
 
-## How to reproduce
+### How to reproduce
 
 1. Open `"platforms/windows/CordovaApp.sln"` in Visual Studio
 1. Configure *CordovaApp.Windows10* as **Startup Project**
