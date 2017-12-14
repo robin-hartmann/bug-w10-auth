@@ -20,12 +20,12 @@ npm i
 
 ### How to reproduce
 
-1. Open `"platforms/windows/CordovaApp.sln"` in Visual Studio
+1. Open `platforms/windows/CordovaApp.sln` in Visual Studio
 1. Configure *CordovaApp.Windows10* as **Startup Project**
 1. Run the project on a connected mobile device
 1. Stop the debug session (the app doesn't crash during debugging)
 1. Launch the app manually
-1. Press *Send POST* (the device needs to successfully receive the response from ``http://PutsReq.com``)
+1. Press *Send POST* (the device needs to successfully receive the response from `http://PutsReq.com`)
 
 Now the authentication dialog should pop up. If the dialog isn't closed within ~5 seconds, the app will crash.
 
