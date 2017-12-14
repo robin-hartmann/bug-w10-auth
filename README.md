@@ -1,6 +1,6 @@
 # bug-w10-auth
 
-A demonstration on how to reproduce a crash on Windows 10 Mobile devices after the authentication dialog pops up
+A minimal working example on how to reproduce a crash on Windows 10 Mobile devices after the authentication dialog pops up
 
 ## Getting Started
 
