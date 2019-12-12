@@ -31,7 +31,7 @@ Now the authentication dialog should pop up. If the dialog isn't closed within ~
 
 ## About the response
 
-For the dialog to pop up, the following conditions have to be met by the respsonse:
+For the dialog to pop up, the following conditions have to be met by the response:
 
 * Status code needs to be `401`
 * Header `WWW-Authenticate` needs to be present
