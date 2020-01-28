@@ -55,7 +55,7 @@ PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
 
 ## Authors
 
-* **Robin Hartmann** - *Initial work* - [robin-hartmann](https://github.com/robin-hartmann)
+* **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
 
 ## License
 
