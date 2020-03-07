@@ -48,7 +48,7 @@ NOKIA Lumia 930|Mobile|1607 (10.0.14393.1715)|YES
 Zebra TC700J|Mobile Enterprise|1607 (10.0.14393.1715)|YES
 PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
 
-## 🔧 Built With
+## 🧰 Built With
 
 * [Cordova](https://cordova.apache.org/) - Mobile apps with HTML, CSS & JS
 * [PutsReq](http://putsreq.com/) - Lets you record HTTP requests and fake responses
