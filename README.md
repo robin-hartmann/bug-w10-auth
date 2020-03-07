@@ -1,24 +1,24 @@
-# bug-w10-auth
+# 🐞 bug-w10-auth
 
 A minimal working example for reproducing a crash on Windows 10 Mobile devices
 
-## Getting Started
+## 🛠️ Development
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### 📋 Prerequisites
 
 * [Node.js](https://nodejs.org/en/download/) - A JavaScript run-time environment
 * [Visual Studio 2015/2017](https://www.visualstudio.com/de/vs/) - Fully-featured IDE for Android, iOS, Windows, web, & cloud
 
-### Installing
+### 🚀 Getting Started
 
 ```Batchfile
 npm i
 .\node_modules\.bin\cordova platform add windows
 ```
 
-### How to reproduce
+### 📋 How to reproduce
 
 1. Open `platforms/windows/CordovaApp.sln` in Visual Studio
 1. Configure *CordovaApp.Windows10* as **Startup Project**
@@ -29,7 +29,7 @@ npm i
 
 Now the authentication dialog should pop up. If the dialog isn't closed within ~5 seconds, the app will crash.
 
-## About the response
+## ✉️ About the response
 
 For the dialog to pop up, the following conditions have to be met by the response:
 
@@ -37,7 +37,7 @@ For the dialog to pop up, the following conditions have to be met by the respons
 * Header `WWW-Authenticate` needs to be present
 * Header `WWW-Authenticate` needs to be configured for Basic Authentication (e.g. set to  `Basic realm="PutsReq.com"`)
 
-## Tested on
+## 📋 Tested on
 
 Device|Windows Variant|Windows Version|Crash
 ---|---|---|---
@@ -48,15 +48,15 @@ NOKIA Lumia 930|Mobile|1607 (10.0.14393.1715)|YES
 Zebra TC700J|Mobile Enterprise|1607 (10.0.14393.1715)|YES
 PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
 
-## Built With
+## 🔧 Built With
 
 * [Cordova](https://cordova.apache.org/) - Mobile apps with HTML, CSS & JS
 * [PutsReq](http://putsreq.com/) - Lets you record HTTP requests and fake responses
 
-## Authors
+## 👨‍💻 Authors
 
 * **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
 
-## License
+## 📃 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
