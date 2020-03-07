@@ -13,13 +13,10 @@ These instructions will get you a copy of this project up and running on your lo
 
 ### 🚀 Getting Started
 
-```Batchfile
-npm i
-.\node_modules\.bin\cordova platform add windows
-```
-
-### 📋 How to reproduce
-
+1. Install all dependencies
+    - `npm i`
+1. Add Windows as platform
+    - `.\node_modules\.bin\cordova platform add windows`
 1. Open `platforms/windows/CordovaApp.sln` in Visual Studio
 1. Configure *CordovaApp.Windows10* as **Startup Project**
 1. Run the project on a connected mobile device
