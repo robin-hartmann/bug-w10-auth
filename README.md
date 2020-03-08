@@ -56,4 +56,4 @@ PANASONIC FZ-F1|Mobile Enterprise|1511 (10.0.10586.1106)|YES
 
 ## 📃 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
